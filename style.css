@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+.aClass{
+    color: red;
+}
+
+
+.aClass1{
+    background-color: blue;
+    margin: 0%;
+    padding: 0%;
+}
+
+.aClass2 h1{
+    background-color: blueviolet;
+  
+    margin: 0;
+}
+.aClass3 h1{
+    /* background-color: blueviolet; */
+    margin: 0;
+    font: size 40px;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: line-through;
+
+}
+.aClass3 p{
+    /* background-color: blueviolet; */
+    margin: 0;
+    font: size 40px;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: line-through;
+    line-height: 30px;
+     /* normaly 2x of font size */
+
+}
+/*! inline and block elemwnt */
+ /* block elenenemt jumb in to next line while inline element will be in same line */
+/*! inline will be same line and and take only content size ,,,if deisplay only when it has a content
+but block element will be the differnt line and take the line whole length */
+
+.aClass4 {
+background-color: red';
+
+}
+span{
+    background-color: red;
+}
+/*! inline controlling using css  */
+/* .a{
+    display: inline;
+    background-color: blue;
+  
+    margin: 1px;
+} */
+/* iniline means it will be in same line , inline block means first it is inline when 
+it reaches the screen it will be block; 
+but inline display only when it has a content 
+*/
+.a{
+    display: inline-block;
+    background-color: blue;
+  
+    margin: 1px;
+}

@@ -1,0 +1,99 @@
+/*
+!Position in css */
+#a {
+  max-width: 500px;
+  /* max is for resposive avoid zooming in phone
+     when box width reaches the screen siz the content will be resposive;
+     */
+  min-height: 200px;
+  background-color: red;
+  overflow: scroll;
+
+  /*
+    => overflow: mean how the conten going to handle , it may be auto hidden, or scroll, scroll means
+    it will be scrollable , hidden means it will be hidden when it reaches the screen size;
+
+    => minimum hieght mean it will be minimum height of the box and when conten is more than the speciqed
+    height the size will be auto change
+    !=> note : overflow: auto; overflow: hidden; overflow: scroll;
+    
+      */
+}
+
+#b {
+  position: absolute;
+  /* 
+     => Absolute means no element can touch it 
+     it will be overlay element like a glass
+
+     => in case of relative it cound from preset potion(current position) 
+     => fixed is for fixed with the screen  for chatboot ect 
+     => sticky is activated as fixed only when is reaches the task bar
+     yah it will become fixed
+     
+     => static is for getting defualt value
+     !=> note : position: absolute; position: relative; position: fixed ; position: sticky; position: static;
+      */
+
+  left: 20px;
+  bottom: 10px;
+  background-color: red;
+  width: 100px;
+  height: 200px;
+}
+/* 
+!sudo class */
+
+button:hover {
+  background-color: red;
+  /* hover means when mouse is on the button it will be change color */
+}
+
+h3:hover {
+  font-size: 28px;
+}
+
+/* .a p:first-child{
+color: red;
+background-color: black;
+} */
+
+.a p:nth-child(2) {
+  color: red;
+  background-color: black;
+}
+
+  /* odd , even last child nth child all are possible */
+
+input:focus {
+  background-color: red;
+}
+/* for sudoclass put one colon and sudo element put two colon */
+
+p::first-letter {
+  color: red;
+}
+
+p::selection {
+  background-color: green;
+  /* use when is selected text or draged */
+}
+
+p::after {
+  content: "hello";
+  /* after and before are use full when animations are used 
+  that mean it will be inset some text after or before the text; */
+}
+
+/* specificty in css is mean which one is more specfic it will call
+
+calling with id is more specific
+class is more specific
+id is more more specific but use rarely
+
+order
+id > class > tag   and calling with parent tag get some specfic than calling itself
+
+
+!important is only use whene you have no method to execute */
+ 

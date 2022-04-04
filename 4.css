@@ -1,0 +1,30 @@
+ html{
+     scroll-behavior: smooth;
+ }
+body{
+    margin: 0;
+}
+/* sudoo element */
+ div:nth-child(1){
+     background-color:rgb(15, 29, 231);
+ }
+
+ div:nth-child(2){
+     background-color:rgb(15, 21, 99);
+ }
+
+ div{
+      height: 100vh; 
+      /* take full height of the screen(view port); */
+      justify-content: center; 
+      /* vertical */
+      align-items: center;      
+      /* horizontal */
+      display: flex;
+ }
+
+ a{
+     text-decoration: none;
+     color: wheat;
+     font-size: 30px;
+ }

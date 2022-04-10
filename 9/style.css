@@ -1,0 +1,44 @@
+.container{
+  width: 500px;
+  height: 500px;
+  background-color: violet;
+}
+
+
+
+/* @media screen and (max-width: 300px) {
+  .container{
+  
+    background-color: red;
+  } */
+/* } */
+
+@media all and  (max-width: 300px) {
+  /* all device */
+   .container{
+  
+    background-color: red;
+
+  }
+}  
+
+
+/* @media print {
+  
+   .container{
+  
+    background-color: red;
+
+  }
+}   */
+
+
+@media (min-width:200px) and (max-width:250px) {
+  /* starting poin 200 and ending point 250 */
+   .container{
+  
+    background-color: red;
+
+  }
+}
+

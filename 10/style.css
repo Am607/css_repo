@@ -1,0 +1,58 @@
+*{
+  box-sizing:border-box ;
+}
+body{
+  margin:0;
+  width: 99vw;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap; 
+  /* wrap is used to move elememt to next line if it is get the boundary
+  but in grid we can defind both direction 2d */
+
+}
+
+.image{
+
+  flex:25%;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  
+}
+
+img {
+  width: 100%;
+  padding-top:15px ;
+  margin: 1px;
+  padding-right: 15px;
+    
+ 
+}
+/* img:hover{
+   transform: scale(1);
+} */
+
+@media (max-width: 1000px) {
+  .image{
+    flex:calc(100% / 3)
+ 
+  }
+}
+
+@media (max-width: 880px) {
+  .image{
+    flex:calc(100% / 2)
+ 
+  }
+}
+
+
+@media (max-width: 557px) {
+  .image{
+    flex:100%;
+ 
+  }
+}
+  

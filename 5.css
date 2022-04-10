@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+/* flux
+very important 
+align-items and justfy content is only work with 
+display flex
+av jh     jail house 
+
+
+*/
+.container{
+    background-color: green;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    
+    /* align-items: center; */
+
+    flex-wrap: wrap;
+    /* imporatant */
+}
+.one ,.two ,.three{
+    /* flex: 1; */
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    border: 1px solid white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+/* flex also work with each element like in flutter 
+so no need to put justify-content and align-items */
+/* .two{
+    flex: 2;
+}
+.one{
+    flex: 3;
+    order: 2;
+} */
+
+/* 
+in case of colunm all is work but opposite to this */
